@@ -14,7 +14,7 @@ public class ParseError {
         i = 0;
         while (i < n)
         {
-            result = result * ;
+            result = result * i;
             i = i + 1;
         }
 

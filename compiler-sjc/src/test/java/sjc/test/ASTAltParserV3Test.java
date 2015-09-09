@@ -15,7 +15,7 @@ import sjc.parser.StaticJavaASTAltParser;
 public class ASTAltParserV3Test {
   public static void testPass(final String filename) {
     try {
-      System.out.println(ParserUtil.parseASTAltV3(Util.getResource(
+      System.out.println(ParserUtil.parse(Util.getResource(
           SJC.class,
           filename)));
       System.out.flush();

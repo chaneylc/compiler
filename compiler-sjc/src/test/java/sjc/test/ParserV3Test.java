@@ -14,7 +14,7 @@ import sjc.parser.StaticJavaParser;
  */
 public class ParserV3Test {
   private static void parse(final String filename) throws Exception {
-    ParserUtil.parseV3(Util.getResource(SJC.class, filename));
+    ParserUtil.parse(Util.getResource(SJC.class, filename));
   }
 
   private static void testFail(final String filename) {

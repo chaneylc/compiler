@@ -15,7 +15,7 @@ import sjc.parser.StaticJavaASTParser;
 public class ASTParserV3Test {
   public static void testPass(final String filename) {
     try {
-      System.out.println(ParserUtil.parseASTV3(Util.getResource(
+      System.out.println(ParserUtil.parse(Util.getResource(
           SJC.class,
           filename)));
       System.out.flush();
